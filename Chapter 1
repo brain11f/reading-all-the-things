@@ -1,0 +1,14 @@
+Chapter 1
+This chapter was very dense! It gave a brief explanation of binary code and how javascript is based on a 64 bit floating point number system. This system is a big reason why javascript is not used for heavy computing of accurate numbers. It then ran threw all of what makes up the language. Much of this is what makes people call javascript a corky language. Example below..
+1 == 1 // -> true
+1 == ‘1' // -> true
+1 == 2 // -> false
+'' == false // -> true
+[] == false // -> true, [] not falsy though
+null == undefined // -> true
+1 === 1 // -> true
+1 === '1' // -> false
+1 === parseInt('1') // -> true
+[] === false // -> false
+null === undefined // -> false
+It when on to give a fast rundown of loops and conditional statements.
